@@ -1,0 +1,56 @@
+@mixin absCenter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+$red: #f04568;
+
+$gunmetal: #2c3539;
+
+$body-background-color: $gunmetal;
+
+$footer-padding: 0.5rem 1.5rem 0.5rem;
+$footer-background-color: turquoise;
+
+$content-heading-color: turquoise;
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home {
+  & span {
+    color: $red;
+  }
+}
+
+.about-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+}
+
+figure {
+  padding: 5vw;
+  color: turquoise;
+  & i {
+    padding: 1vw;
+    font-size: 5vw;
+  }
+  & figcaption {
+    font-size: 0.75vw;
+  }
+}
+
+@import '../node_modules/bulma/bulma.sass';

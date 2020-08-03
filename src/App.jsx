@@ -12,7 +12,7 @@ import './App.scss';
 
 function App() {
   return (
-    <div className='app'>
+    <div className='app is-family-secondary'>
       <Navbar />
       <Switch>
         <Route exact path='/' component={Home} />

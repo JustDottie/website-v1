@@ -24,6 +24,10 @@ $content-heading-color: turquoise;
 }
 
 .home {
+  color: turquoise;
+  text-align: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
   & span {
     color: $red;
   }
@@ -35,21 +39,61 @@ $content-heading-color: turquoise;
   justify-content: space-around;
   margin: 0 auto;
   text-align: center;
+  width: 50%;
+}
+
+.aboutme {
+  text-align: center;
+  & h1 {
+    color: $red;
+  }
+  & p {
+    color: turquoise;
+  }
 }
 
 .skills {
+  color: $red;
+}
+
+.figures {
   display: flex;
+  justify-content: space-evenly;
 }
 
 figure {
-  padding: 5vw;
   color: turquoise;
   & i {
-    padding: 1vw;
-    font-size: 5vw;
+    padding: 0 5px;
   }
-  & figcaption {
-    font-size: 0.75vw;
+}
+
+.form {
+  display: grid;
+  place-items: center;
+}
+
+@media (max-width: 768px) {
+  .form iframe {
+    width: 350px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .form iframe {
+    width: 640px;
+  }
+}
+
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    flex-direction: column;
+    margin: 0 auto;
   }
 }
 

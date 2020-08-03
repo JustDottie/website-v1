@@ -1,5 +1,11 @@
 import React from 'react';
+import Card from '../components/Card';
 
 export default function Projects() {
-  return <div></div>;
+  return (
+    <div className='projects'>
+      <Card />
+      <Card />
+    </div>
+  );
 }

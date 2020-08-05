@@ -15,6 +15,7 @@ export default function Navbar() {
         </Link>
 
         <Link
+          to=''
           onClick={() => {
             setisActive(!isActive);
           }}

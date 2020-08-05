@@ -2,20 +2,33 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer class='footer'>
-      <div class='content has-text-centered'>
+    <div className='footer-div'>
+      <div className='footer-left'>
         <p>
-          <strong>Bulma</strong> by{' '}
-          <a href='https://jgthms.com'>Jeremy Thomas</a>. The source code is
-          licensed
-          <a href='http://opensource.org/licenses/mit-license.php'>MIT</a>. The
-          website content is licensed{' '}
-          <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>
-            CC BY NC SA 4.0
+          Created using{' '}
+          <a
+            href='https://reactjs.org/'
+            target='_blank'
+            rel='noopener noreferrer'>
+            React
+          </a>{' '}
+          and{' '}
+          <a href='https://bulma.io/' target='_blank' rel='noopener noreferrer'>
+            Bulma
           </a>
           .
         </p>
       </div>
-    </footer>
+      <div className='footer-right'>
+        <p>
+          <a
+            href='https://github.com/JustDottie/website-v1'
+            target='_blank'
+            rel='noopener noreferrer'>
+            Source Code
+          </a>
+        </p>
+      </div>
+    </div>
   );
 }

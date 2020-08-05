@@ -23,6 +23,11 @@ $content-heading-color: turquoise;
   justify-content: space-between;
 }
 
+.navbar-brand button {
+  border: none;
+  background-color: $red;
+}
+
 .home {
   color: turquoise;
   text-align: center;

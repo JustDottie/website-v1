@@ -14,12 +14,10 @@ export default function Navbar() {
           Arwin Mavaji
         </Link>
 
-        <Link
-          to=''
+        <button
           onClick={() => {
             setisActive(!isActive);
           }}
-          role='button'
           className={`navbar-burger burger ${isActive ? 'is-active' : ''}`}
           aria-label='menu'
           aria-expanded='false'
@@ -27,7 +25,7 @@ export default function Navbar() {
           <span aria-hidden='true'></span>
           <span aria-hidden='true'></span>
           <span aria-hidden='true'></span>
-        </Link>
+        </button>
       </div>
 
       <div

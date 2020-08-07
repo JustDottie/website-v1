@@ -20,14 +20,26 @@ export default function Footer() {
         </p>
       </div>
       <div className='footer-right'>
-        <p>
-          <a
-            href='https://github.com/JustDottie/website-v1'
-            target='_blank'
-            rel='noopener noreferrer'>
-            Source Code
-          </a>
-        </p>
+        <ul>
+          <li>
+            <a
+              className='socialLink'
+              href='https://github.com/JustDottie'
+              target='_blank'
+              rel='noopener noreferrer'>
+              <i class='fab fa-github-square' />
+            </a>
+          </li>
+          <li>
+            <a
+              className='socialLink'
+              href='https://www.linkedin.com/in/arwin-mavaji-7ab8661b3/'
+              target='_blank'
+              rel='noopener noreferrer'>
+              <i class='fab fa-linkedin' />
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

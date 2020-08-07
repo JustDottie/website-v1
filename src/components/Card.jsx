@@ -19,10 +19,17 @@ export default class Card extends Component {
               ))}
             </ul>
             <div className='links'>
-              <a href={this.props.github}>
+              <a
+                href={this.props.github}
+                target='_blank'
+                rel='noopener noreferrer'>
                 <i class='fab fa-github-square'></i>
               </a>
-              <a href={this.props.demoUrl} className='demo'>
+              <a
+                href={this.props.demoUrl}
+                className='demo'
+                target='_blank'
+                rel='noopener noreferrer'>
                 Live Demo
               </a>
             </div>

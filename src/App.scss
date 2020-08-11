@@ -49,7 +49,9 @@ $content-heading-color: turquoise;
   width: 50%;
 }
 
-.aboutme {
+.aboutme,
+.skills,
+.current {
   text-align: center;
   & h1 {
     color: $red;
@@ -57,10 +59,6 @@ $content-heading-color: turquoise;
   & p {
     color: turquoise;
   }
-}
-
-.skills {
-  color: $red;
 }
 
 .figures {

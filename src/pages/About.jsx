@@ -50,6 +50,25 @@ export default function About() {
           </figure>
         </div>
       </div>
+      <div className='current'>
+        <h1 className='has-text-weight-semibold is-size-2-mobile is-size-2-touch is-size-1-tablet is-size-1-desktop is-size-1-widescreen is-size-1-fullhd'>
+          Currently Learning
+        </h1>
+        <div className='figures is-size-3-mobile is-size-2-touch is-size-3-tablet is-size-1-desktop is-size-1-widescreen is-size-1-fullhd'>
+          <figure>
+            <i class='fab fa-php'></i>
+            <figcaption className='is-size-7-mobile is-size-7-touch is-size-6-tablet is-size-5-desktop is-size-4-widescreen is-size-4-fullhd'>
+              PHP{' '}
+            </figcaption>
+          </figure>
+          <figure>
+            <i class='fab fa-laravel'></i>
+            <figcaption className='is-size-7-mobile is-size-7-touch is-size-6-tablet is-size-5-desktop is-size-4-widescreen is-size-4-fullhd'>
+              Laravel{' '}
+            </figcaption>
+          </figure>
+        </div>
+      </div>
     </div>
   );
 }

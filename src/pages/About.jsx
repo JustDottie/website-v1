@@ -58,13 +58,13 @@ export default function About() {
           <figure>
             <i class='fab fa-php'></i>
             <figcaption className='is-size-7-mobile is-size-7-touch is-size-6-tablet is-size-5-desktop is-size-4-widescreen is-size-4-fullhd'>
-              PHP{' '}
+              PHP
             </figcaption>
           </figure>
           <figure>
             <i class='fab fa-laravel'></i>
             <figcaption className='is-size-7-mobile is-size-7-touch is-size-6-tablet is-size-5-desktop is-size-4-widescreen is-size-4-fullhd'>
-              Laravel{' '}
+              Laravel
             </figcaption>
           </figure>
         </div>
